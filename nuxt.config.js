@@ -17,7 +17,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/ideas-or-trash/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/grayusan.github.io/favicon.ico' },
       { rel: 'stylesheet', href: 'assets/simple-grid.css' },
     ]
   },
@@ -52,6 +52,6 @@ export default {
   build: {
   },
   router: {
-    base: '/blog/'
+    base: '/'
   },
 }
