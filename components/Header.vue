@@ -8,7 +8,9 @@
          <NuxtLink to="/blog">
          <li><a href="#">BLOG</a></li>
          </NuxtLink>
-         <li><a href="#">CONTACT</a></li>
+         <NuxtLink to="/portfolio">
+         <li><a href="">Portfolio</a></li>
+         </NuxtLink>
       </ul>
    </nav>
 </header>

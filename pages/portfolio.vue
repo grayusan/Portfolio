@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-    <h2 id="bad_idea_title">Good ideas</h2>
+    <h2 id="bad_idea_title">Portfolio</h2>
       <div class="card" v-for="article of articles" :key="article.slug">
         <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
           <div class="card-body">
@@ -17,7 +17,7 @@
     async asyncData({ $content, params }) {
       try{
         const articles = await $content('articles', params.slug)
-          .where({ tags: { $contains: 'gideas' } })
+          .where({ tags: { $contains: 'portfolio' } })
           .only(['title', 'description', 'slug'])
           .sortBy('createdAt', 'asc')
           .fetch()
