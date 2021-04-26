@@ -1,11 +1,13 @@
 <template>
   <header>
    <h1>
+      <NuxtLink to="/">
       <a href="/">BLOG</a>
+      </NuxtLink>
    </h1>
    <nav class="pc-nav">
       <ul>
-         <NuxtLink to="/blog">
+         <NuxtLink to="/blog_index">
          <li><a href="#">BLOG</a></li>
          </NuxtLink>
          <NuxtLink to="/portfolio">
