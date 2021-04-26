@@ -17,10 +17,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: `${env.BASE_URL}favicon.ico` },
+      { rel: 'icon', type: 'image/x-icon', href: `/favicon.ico` },
       { rel: 'stylesheet', href: 'assets/simple-grid.css' },
     ]
   },
@@ -55,6 +55,6 @@ export default {
   build: {
   },
   router: {
-    base: env.BASE_URL
+    base: '/Portfolio/'
   },
 }
