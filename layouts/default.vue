@@ -1,17 +1,21 @@
 <template>
   <div>
-    <!-- <Header class="header"></Header> -->
+    <div class="header-this">
+    <Header></Header>
+  </div>
+    <div class="container">
     <Nuxt />
+    </div>
   </div>
 </template>
 
 <script>
-// import Header from '~/components/Header.vue'
-// export default {
-//   components: {
-//    Header,
-//  },
-// }
+import Header from '~/components/Header.vue'
+export default {
+  components: {
+   Header,
+ },
+}
 </script>
 
 <style>
@@ -74,16 +78,8 @@ body{
   background-color: #35495e;
 }
 
-.header{
-  margin-bottom: 20px;
+.header-this{
+  margin-bottom: 75px;
   text-decoration: none;
-}
-
-a:link {
-  color: #001C50;
-}
-
-a:visited{
-  color: #001C50;
 }
 </style>
