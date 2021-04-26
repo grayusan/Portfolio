@@ -1,3 +1,6 @@
+const environment = process.env.NODE_ENV || 'local'
+const env = require(`./env/${environment}.js`)
+
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -17,7 +20,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: `${env.BASE_URL}favicon.ico` },
       { rel: 'stylesheet', href: 'assets/simple-grid.css' },
     ]
   },
@@ -52,6 +55,6 @@ export default {
   build: {
   },
   router: {
-    base: '/Portfolio/'
+    base: env.BASE_URL
   },
 }
