@@ -44,7 +44,7 @@ img {
   font-size: 40px;
   margin-bottom: 20px;
 }
-.links{
+.links {
   color: blue;
 }
 
