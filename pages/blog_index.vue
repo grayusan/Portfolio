@@ -6,6 +6,7 @@
         <div class="card-body">
           <h4 class="card-title" id="card-title-dec">{{ article.title }}</h4>
           <!-- <div class="card-text">{{ article.description }}</div> -->
+          <p style="display:inline">{{ formatDate(article.createdAt) }} </p>
         </div>
       </NuxtLink>
     </div>
@@ -18,7 +19,7 @@ export default {
     try {
       const articles = await $content("articles", params.slug)
         .where({ tags: { $contains: "blog" } })
-        .only(["title", "description", "slug"])
+        .only(["title", "description", 'createdAt', "slug"])
         .sortBy("createdAt", "asc")
         .fetch();
 
@@ -29,6 +30,12 @@ export default {
       throw new Error(`Problem handling something: ${err}.`);
     }
   },
+  methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
+    }
+  }
 };
 </script>
 
