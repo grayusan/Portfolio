@@ -6,7 +6,7 @@
         <div class="card-body">
           <h4 class="card-title" id="card-title-dec">{{ article.title }}</h4>
           <!-- <div class="card-text">{{ article.description }}</div> -->
-          <p style="display:inline">{{ formatDate(article.createdAt) }} </p>
+          <!-- <p style="display:inline">{{ formatDate(article.createdAt) }} </p> -->
         </div>
       </NuxtLink>
     </div>

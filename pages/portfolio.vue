@@ -5,7 +5,7 @@
         <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
           <div class="card-body">
           <h4 class="card-title" id="card-title-dec" style="display:inline">{{ article.title }}</h4>
-          <p style="display:inline">{{ formatDate(article.createdAt) }} </p>
+          <!-- <p style="display:inline">{{ formatDate(article.createdAt) }} </p> -->
           <!-- <div class="card-text">{{ article.description }}</div> -->
           </div>
         </NuxtLink>
