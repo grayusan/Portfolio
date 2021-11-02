@@ -6,7 +6,7 @@
     <p>{{ article.description }}</p> -->
     <!-- <img :src="article.img" :alt="article.alt" /> -->
     
-    <p class="dates">Article last updated: {{ formatDate(article.updatedAt) }}</p>
+    <!-- <p class="dates">Article last updated: {{ formatDate(article.updatedAt) }}</p> -->
     <hr>
     <!-- <nav>
         <ul>
