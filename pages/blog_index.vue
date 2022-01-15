@@ -52,7 +52,7 @@ export default {
 }
 .card-titile {
   display: inline-block;
-  background: linear-gradient(transparent 90%, #00ffc3 90%);
+  background: linear-gradient(transparent 90%, #f9fffe 90%);
 }
 #card-title-dec {
   display: inline-block;

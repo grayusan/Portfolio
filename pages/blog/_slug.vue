@@ -42,20 +42,20 @@
   .nuxt-content h1 {
     font-weight: bold;
     display: inline-block;
-    background: linear-gradient(transparent 70%, #00FFC3 70%);
+    background: linear-gradient(transparent 70%, #c3fcc3 70%);
   }
 
   .nuxt-content h2 {
     font-weight: bold;
     font-size: 28px;
     display: inline-block;
-    background: linear-gradient(transparent 70%, #00FFC3 70%);
+    background: linear-gradient(transparent 70%, #c3fcc3 70%);
   }
   .nuxt-content h3 {
     font-weight: bold;
     font-size: 22px;
     display: inline-block;
-    background: linear-gradient(transparent 70%, #00FFC3 70%);
+    background: linear-gradient(transparent 70%, #c3fcc3 70%);
   }
   .nuxt-content p {
     margin-bottom: 20px;
