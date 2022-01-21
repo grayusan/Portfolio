@@ -6,9 +6,9 @@ tags: [portfolio]
 
 Several months ago, my friend produced a portfolio website with Nuxt.js on github pages. I was heavily inspired by the idea of that and started working on my very own portfolio. At the time, I did not have enough knowledge of front-end; therefore I had to learn everything from scratch. Overall it was a good practice and I am satisfied with the quality of this portfolio site. 
 
-## How this blog&portfolio site is created with Nuxt.js
+## How this blog&portfolio site was created with Nuxt.js
 
-Several months ago, my friend created 
+I got the idea several months ago when I saw my friend's portfolio. Since then, I started working on the project. 
 
 ### Main technology
 Nuxt.js with nuxt content
