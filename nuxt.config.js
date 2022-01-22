@@ -46,6 +46,7 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    // '@nuxtjs/moment',
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
