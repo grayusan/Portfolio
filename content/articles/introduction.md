@@ -1,6 +1,7 @@
 ---
 title: Who I am 
 description: 'My first post'
+date: 22/01/22
 tags: [blog]
 ---
 
